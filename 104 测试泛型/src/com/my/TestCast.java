@@ -24,7 +24,7 @@ class Template<T>
 	
 	
 }
-public class Test
+public class TestCast
 {
 
 	public static void main(String[] args)

@@ -8,7 +8,7 @@ import java.text.DecimalFormat;
  * @author Administrator
  *
  */
-public strictfp class Test
+public strictfp class TestFoatmatAndDivide
 {
 
 	public strictfp static void main(String[] args)
@@ -42,22 +42,22 @@ public strictfp class Test
 			System.out.println(d);
 
 		}
-		{
-			/**
-			 * 比较是小数位为0会自动被忽略
-			 */
-			float f = 1.0f;
-			if (f == 1)
-			{
-				System.out.println("yes");
-			} else
-				System.out.println("no");
-
-			Double double1 = Double.parseDouble("0.25");
-
-			System.out.println(double1 * 5);
-
-		}
+//		{
+//			/**
+//			 * 比较是小数位为0会自动被忽略
+//			 */
+//			float f = 1.0f;
+//			if (f == 1)
+//			{
+//				System.out.println("yes");
+//			} else
+//				System.out.println("no");
+//
+//			Double double1 = Double.parseDouble("0.25");
+//
+//			System.out.println(double1 * 5);
+//
+//		}
 	}
 
 }

@@ -5,6 +5,12 @@ public class TestSplit
 
 	public static void main(String[] args)
 	{
+		
+//		testSplit();
+		
+	}
+
+	private static void testSplit() {
 		{
 			String str = "101.102";
 			String[] strs = str.split("\\.");
@@ -21,17 +27,6 @@ public class TestSplit
 //			System.out.println(strs[0]);
 //			System.out.println(strs[1]);
 		}
-		
-		{
-			// 只去掉第一个0
-			String str = "0.1010";
-			System.out.println(str.replaceFirst("0", ""));
-		}
-		{
-			System.out.println(Double.parseDouble("12."));
-			System.out.println(Double.parseDouble(".50"));
-		}
-
 	}
 
 }

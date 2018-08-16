@@ -1,6 +1,6 @@
 package com.my;
 
-public class Test
+public class TestPwdLimit
 {
 
 	public static void main(String[] args)
