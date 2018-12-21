@@ -1,6 +1,8 @@
 /.metadata/
 /.metadata/
 javaTest.iml
+bin/
+*.iml
 .idea
 .idea/
 /RemoteSystemsTempFiles
