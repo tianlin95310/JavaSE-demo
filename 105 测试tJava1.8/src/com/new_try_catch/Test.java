@@ -11,11 +11,10 @@ public class Test
 
 	public static void main(String[] args)
 	{
-		try 
-		(
+		try (
 				// 自动释放资源的写法
 				InputStream is = new FileInputStream(new File(""));
-		)
+				)
 		{
 
 		} catch (FileNotFoundException e)
